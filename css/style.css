@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: rgb(90, 86, 86);
+    color: white;
+    height: 10vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    font-size: 1.5em;
+    padding-top: 1%;
+}
+
+nav h1 {
+    color: rgb(245, 110, 110);
+    font-size: 1em;
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin: 0;
+    padding-left: 1vw;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(189, 189, 189);
+    text-decoration: none;
+}
+
+nav ul li {
+    padding-right: 2vw;
+}
